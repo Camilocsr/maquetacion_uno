@@ -1,0 +1,29 @@
+:root{
+    --cl-orange: #f46523;
+    --cl-red: #c41f3f;
+    --cl-red-2: #ed1b24;
+    --cl-gray: #6d6e72;
+    --cl-white: #e6e7e9;
+    --cl-yellow: #e7a131;
+    --cl-background: #231f20;
+    --cl-background-2: #414143;
+    --cl-aside: #6d6e72;
+    --cl-aside-2:#404142;
+    --cl-navbar: #59595b;
+    --cl-text: #555557;
+    --cl-subtitle:#949599;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html body{
+    background-color: var(--cl-background);
+}
